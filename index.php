@@ -24,6 +24,7 @@
                 <th>Zapremina</th>
                 <th>Tip</th>
                 <th>Cena</th>
+                <th>Obrisi</th>
             </tr>
         </thead>
 
