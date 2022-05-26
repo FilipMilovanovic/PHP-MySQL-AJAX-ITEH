@@ -14,6 +14,8 @@
 
     <h1 class="text-center mt-3">Parfimerija - Parfait</h1>
 
+    <a href="forms/noviParfem.php"><button type="button" class="btn btn-dark" id="button-novi">Novi parfem</button></a>
+
     <table class="table table-bordered table-striped border border-dark border-3 mt-3" id="tbl-parfemi">
         <thead class="table-primary border border-dark border-3">
             <tr>

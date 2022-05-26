@@ -15,6 +15,6 @@
          <td><?php echo $row['pnaziv'];  ?></td>
          <td><?php echo $row['zapremina'];  ?></td>
          <td><?php echo $row['tipnaziv'];  ?></td>
-         <td><?php echo $row['cena'];  ?>.00 RSD</td>
+         <td><?php echo $row['cena'];  ?>,00 RSD</td>
      </tr>
  <?php } ?>
