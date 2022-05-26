@@ -26,7 +26,6 @@ function obrisiParfem() {
 
         let id = $(this).attr('value');
 
-        alert(id)
         $.ajax(
             {
                 url: 'db/obrisiParfem.php',

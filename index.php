@@ -31,6 +31,7 @@
                 <th>Tip</th>
                 <th>Cena</th>
                 <th>Obriši</th>
+                <th>Izmeni</th>
             </tr>
         </thead>
 
