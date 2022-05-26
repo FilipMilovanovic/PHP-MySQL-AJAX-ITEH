@@ -40,6 +40,10 @@
 
     </table>
 
+    <div class="sort">
+        <button type="button" class="btn btn-dark" id="button-sort-rastuce">Cena Rastuće</button>
+        <button type="button" class="btn btn-dark" id="button-sort-opadajuce">Cena Opadajuće</button>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>

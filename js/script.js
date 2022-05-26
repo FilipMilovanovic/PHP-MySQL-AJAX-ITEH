@@ -2,6 +2,7 @@ $(function () {
     vratiSveParfeme();
     obrisiParfem();
     pretraziParfeme();
+    sortirajParfeme();
 });
 
 function vratiSveParfeme() {
@@ -56,4 +57,44 @@ function pretraziParfeme() {
             }
         )
     })
+}
+
+
+function sortirajParfeme() {
+
+    $(document).on('click', '#button-sort-rastuce', function () {
+
+        $.ajax(
+            {
+                url: 'db/sortiranjeParfema.php',
+                method: 'post',
+                data: { sort: 'asc' },
+
+                success: function (parfemi) {
+                    {
+                        $('tbody').html(parfemi);
+                    }
+                }
+            }
+        )
+    })
+
+
+    $(document).on('click', '#button-sort-opadajuce', function () {
+
+        $.ajax(
+            {
+                url: 'db/sortiranjeParfema.php',
+                method: 'post',
+                data: { sort: 'desc' },
+
+                success: function (parfemi) {
+                    {
+                        $('tbody').html(parfemi);
+                    }
+                }
+            }
+        )
+    })
+
 }
