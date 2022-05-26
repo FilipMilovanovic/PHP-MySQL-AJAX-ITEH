@@ -15,5 +15,6 @@
           <td><?php echo $row['tipnaziv'];  ?></td>
           <td><?php echo $row['cena'];  ?>,00 RSD</td>
           <td><button type="button" class="btn btn-info" value="<?php echo $row['id']; ?>" id="button-delete">Obriši</button></td>
+          <td><a href="forms/izmeniParfem.php?id_parfem_edit=<?php echo $row['id']; ?>"><button type="button" class="btn btn-primary" id="button-edit">Izmeni</button></a></td>
         </tr>
       <?php } ?>
