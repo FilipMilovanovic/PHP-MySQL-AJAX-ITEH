@@ -18,3 +18,13 @@
     margin-left: 5%;
     margin-top: 2%;
 }
+
+.search {
+    display: flex;
+}
+
+#pretraga {
+    margin-left: 58%;
+    margin-right: 0.7%;
+    width: 12%;
+}

@@ -16,6 +16,12 @@
 
     <a href="forms/noviParfem.php"><button type="button" class="btn btn-dark" id="button-novi">Novi parfem</button></a>
 
+    <div class="search">
+        <input type="text" class="form-control" id="pretraga">
+        <button type="button" class="btn btn-dark" id="button-search">Pretraži</button>
+    </div>
+
+
     <table class="table table-bordered table-striped border border-dark border-3 mt-3" id="tbl-parfemi">
         <thead class="table-primary border border-dark border-3">
             <tr>
@@ -24,7 +30,7 @@
                 <th>Zapremina</th>
                 <th>Tip</th>
                 <th>Cena</th>
-                <th>Obrisi</th>
+                <th>Obriši</th>
             </tr>
         </thead>
 

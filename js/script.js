@@ -1,6 +1,7 @@
 $(function () {
     vratiSveParfeme();
     obrisiParfem();
+    pretraziParfeme();
 });
 
 function vratiSveParfeme() {
@@ -30,6 +31,28 @@ function obrisiParfem() {
                 url: 'db/obrisiParfem.php',
                 method: 'post',
                 data: { parfem_id: id },
+            }
+        )
+    })
+}
+
+function pretraziParfeme() {
+
+    $(document).on('click', '#button-search', function () {
+
+        var model = $('#pretraga').val();
+
+        $.ajax(
+            {
+                url: 'db/pretragaParfema.php',
+                method: 'post',
+                data: { model_parfema: model },
+
+                success: function (parfemi) {
+                    {
+                        $('tbody').html(parfemi);
+                    }
+                }
             }
         )
     })
